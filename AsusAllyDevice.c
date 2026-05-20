@@ -397,7 +397,7 @@ AsusAllyPollingHandler (
                     UsbKeyboardDevice->IntEndpointDescriptor.EndpointAddress,
                     Buffer,
                     &DataLength,
-                    25,  // Increase Timeout from 16ms to 25ms
+                    100,  // Increase Timeout to 100 
                     &UsbStatus
                     );
   
